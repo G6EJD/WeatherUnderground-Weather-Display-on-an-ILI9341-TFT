@@ -7,3 +7,5 @@ Recent changes to the Adafruit ILI9341 driver prevent BMP drawing. Only the foll
 #include <Adafruit_GFX.h>     // v1.1.8 functions correctly
 
 #include <Adafruit_ILI9341.h> // Only v1.02 functions correctly, changes made in 1.03 prevent BMP drawing
+
+***** Version7 now works with the latest version 1.0.6 Adafruit GFX library
