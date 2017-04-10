@@ -21,7 +21,7 @@ See more at http://dsbird.org.uk
 #include <ArduinoJson.h>      // https://github.com/bblanchon/ArduinoJson
 #include <DNSServer.h>
 #include <Adafruit_GFX.h>     // v1.1.8 functions correctly
-#include <Adafruit_ILI9341.h> // Only v1.02/5 functions correctly, changes made in later versions prevent BMP drawing
+#include <Adafruit_ILI9341.h> // v1.0.6 functions correctly
 #include <FS.h>
 //################ DISPLAY CONNECTIONS #######
 #define _CS   D4 // D4 goes to TFT CS
