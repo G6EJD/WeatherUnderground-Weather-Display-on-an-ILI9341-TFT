@@ -39,7 +39,7 @@ Adafruit_ILI9341 tft = Adafruit_ILI9341(_CS, _DC);
 
 //------ NETWORK VARIABLES---------
 // Use your own API key by signing up for a free developer account at http://www.wunderground.com/weather/api/
-String API_key       = "2aaedf86898e4dd7";           // See: http://www.wunderground.com/weather/api/d/docs (change here with your KEY)
+String API_key       = "----------------";           // See: http://www.wunderground.com/weather/api/d/docs (change here with your KEY)
 String City          = "Melksham";                   // Your home city
 String Country       = "UK";                         // Your country   
 String Conditions    = "conditions";                 // See: http://www.wunderground.com/weather/api/d/docs?d=data/index&MR=1
