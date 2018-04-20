@@ -10,4 +10,4 @@ Recent changes to the Adafruit ILI9341 driver prevent BMP drawing. Only the foll
 
 ***** Version7 now works with the latest version 1.0.6 Adafruit GFX library
 
-Copy the sketch ino to a sketch folder, create a sub-folder called data andcopy the images into the data folder. Use the IDE file upload utility to upload the image files, compile and upload the sketch, thats it.
+Copy the sketch .ino to a sketch folder, create a sub-folder called data and copy the images into the data folder. Use the IDE file upload utility to upload the image files, compile and upload the sketch, thats it.
