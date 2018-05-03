@@ -8,6 +8,15 @@ Recent changes to the Adafruit ILI9341 driver prevent BMP drawing. Only the foll
 
 #include <Adafruit_ILI9341.h> // Only v1.02 functions correctly, changes made in 1.03 prevent BMP drawing
 
-***** Version7 now works with the latest version 1.0.6 Adafruit GFX library
+***** Version 9 now detects North or South Hemisphere locations and reverses the Moon images accordingly.
 
-Copy the sketch .ino to a sketch folder, create a sub-folder called data and copy the images into the data folder. Use the IDE file upload utility to upload the image files, compile and upload the sketch, thats it.
+Install instructions:
+
+1. Copy the sketch .ino to a sketch folder
+2. Create a sub-folder called 'data' and copy all the images into the data folder.
+3. Use the IDE flash file upload utility to upload the image files t othe data folder.
+4. Adjust your City name, Country and Language and add your free WU Key.
+   Find your country here: https://www.wunderground.com/weather-by-country.asp
+   Click on your Contry to find ytour nearest City/Location that is supported by WU.
+   In the USA use your State as Country.
+4. Compile and upload the sketch, enjoy.
